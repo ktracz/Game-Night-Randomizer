@@ -1,4 +1,4 @@
-# Game-Night-Randomizer
+# Game Night Randomizer
 Randomly assigns players to the game where games have asymmetrical abilities. 
 
 Checks to see what game you're playing
