@@ -1,4 +1,4 @@
-from game_night_randomizer import main
+from game_night_randomizer import app
 
 if __name__ == '__main__':
-  main.run()
+  app.run()
