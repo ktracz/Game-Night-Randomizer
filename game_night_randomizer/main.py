@@ -69,10 +69,13 @@ def Spaces(lines):
         print("")
 
 
+
 games = ["Game of Thrones", "Any Game"]
+
 gameSelect = userPickGames(games)
 print("You have selected " + games[gameSelect])
 Spaces(2)
+
 if gameSelect == 0:
     gameOfThrones()
 elif gameSelect == 1:
