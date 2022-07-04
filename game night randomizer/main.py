@@ -15,17 +15,17 @@ def gameOfThrones():
         n = int(plNum)
     else:
         gameHouses = houses[:n]
-    #print(gameHouses)
+   
     Spaces(1)
     for p in range(n):
         players.append(input("Player " + str(p + 1) + " name? "))
-    #print (players)
+ 
     Spaces(1)
     for p in players:
         housePick = random.choice(gameHouses)
         gameHouses.remove(housePick)
         print(p + " plays " + housePick)
-        #print (gameHouses)
+        
 
 
 def anyGame():
@@ -83,4 +83,4 @@ else:
 Spaces(2)
 print("Good Luck!")
 
-#gameOfThrones()
+
